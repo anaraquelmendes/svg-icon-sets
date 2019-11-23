@@ -1,0 +1,45 @@
+html {
+  font-family: Overpass, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+.icon {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff5e3a;
+}
+
+div {
+  border-bottom: solid 1px rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 60em) {
+div {
+  border-bottom: none;
+  border-right: solid 1px rgba(255, 255, 255, 1);
+}
+
+}
