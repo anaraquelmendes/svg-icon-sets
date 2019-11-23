@@ -37,9 +37,10 @@ div {
 }
 
 @media only screen and (min-width: 60em) {
-div {
-  border-bottom: none;
-  border-right: solid 1px rgba(255, 255, 255, 1);
-}
+
+  div {
+    border-bottom: none;
+    border-right: solid 1px rgba(255, 255, 255, 1);
+  }
 
 }
